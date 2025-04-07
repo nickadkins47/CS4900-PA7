@@ -1,0 +1,17 @@
+{"time":"2025-04-06T18:19:51.527954446-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250406_181951-spuk99dh/logs/debug-core.log"}
+{"time":"2025-04-06T18:19:51.848608551-04:00","level":"INFO","msg":"created new stream","id":"spuk99dh"}
+{"time":"2025-04-06T18:19:51.848672841-04:00","level":"INFO","msg":"stream: started","id":"spuk99dh"}
+{"time":"2025-04-06T18:19:51.84888345-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"spuk99dh"}
+{"time":"2025-04-06T18:19:51.849093202-04:00","level":"INFO","msg":"handler: started","stream_id":"spuk99dh"}
+{"time":"2025-04-06T18:19:51.849111852-04:00","level":"INFO","msg":"sender: started","stream_id":"spuk99dh"}
+{"time":"2025-04-06T18:19:52.047812488-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-06T18:20:02.863058586-04:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-04-06T18:25:08.408909839-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-06T18:25:08.408979947-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-06T18:25:09.4118874-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading models/spuk99dh/log/DQN_1/events.out.tfevents.1743977992.NAsLgGram.82557.0","runtime_seconds":0.243689144,"progress":"20.5KB/20.5KB"},{"desc":"uploading model.zip","runtime_seconds":0.243674461,"progress":"105.1KB/105.1KB"}],"total_operations":2}}
+{"time":"2025-04-06T18:25:09.560210272-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-06T18:25:09.790697507-04:00","level":"INFO","msg":"stream: closing","id":"spuk99dh"}
+{"time":"2025-04-06T18:25:09.790715737-04:00","level":"INFO","msg":"handler: closed","stream_id":"spuk99dh"}
+{"time":"2025-04-06T18:25:09.790723352-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"spuk99dh"}
+{"time":"2025-04-06T18:25:09.790757565-04:00","level":"INFO","msg":"sender: closed","stream_id":"spuk99dh"}
+{"time":"2025-04-06T18:25:09.790816169-04:00","level":"INFO","msg":"stream: closed","id":"spuk99dh"}

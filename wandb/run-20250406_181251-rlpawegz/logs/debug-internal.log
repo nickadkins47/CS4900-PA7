@@ -1,0 +1,17 @@
+{"time":"2025-04-06T18:12:51.727285118-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250406_181251-rlpawegz/logs/debug-core.log"}
+{"time":"2025-04-06T18:12:52.102222467-04:00","level":"INFO","msg":"created new stream","id":"rlpawegz"}
+{"time":"2025-04-06T18:12:52.102328218-04:00","level":"INFO","msg":"stream: started","id":"rlpawegz"}
+{"time":"2025-04-06T18:12:52.10252607-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"rlpawegz"}
+{"time":"2025-04-06T18:12:52.102698923-04:00","level":"INFO","msg":"sender: started","stream_id":"rlpawegz"}
+{"time":"2025-04-06T18:12:52.10269266-04:00","level":"INFO","msg":"handler: started","stream_id":"rlpawegz"}
+{"time":"2025-04-06T18:12:52.26285304-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-06T18:13:03.814392804-04:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-04-06T18:19:45.107305734-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-06T18:19:45.107351289-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-06T18:19:46.109661588-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.769649248,"progress":"550.3KB/550.3KB"},{"desc":"uploading models/rlpawegz/log/PPO_1/events.out.tfevents.1743977573.NAsLgGram.75514.0","runtime_seconds":0.233995457,"progress":"32.5KB/32.5KB"},{"desc":"uploading model.zip","runtime_seconds":0.173520309,"progress":"146.4KB/146.4KB"}],"total_operations":3}}
+{"time":"2025-04-06T18:19:46.364886745-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-06T18:19:46.834793978-04:00","level":"INFO","msg":"stream: closing","id":"rlpawegz"}
+{"time":"2025-04-06T18:19:46.83481132-04:00","level":"INFO","msg":"handler: closed","stream_id":"rlpawegz"}
+{"time":"2025-04-06T18:19:46.834823768-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rlpawegz"}
+{"time":"2025-04-06T18:19:46.834901611-04:00","level":"INFO","msg":"sender: closed","stream_id":"rlpawegz"}
+{"time":"2025-04-06T18:19:46.834938342-04:00","level":"INFO","msg":"stream: closed","id":"rlpawegz"}

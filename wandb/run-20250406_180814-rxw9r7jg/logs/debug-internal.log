@@ -1,0 +1,16 @@
+{"time":"2025-04-06T18:08:14.185479446-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250406_180814-rxw9r7jg/logs/debug-core.log"}
+{"time":"2025-04-06T18:08:14.515613036-04:00","level":"INFO","msg":"created new stream","id":"rxw9r7jg"}
+{"time":"2025-04-06T18:08:14.515651635-04:00","level":"INFO","msg":"stream: started","id":"rxw9r7jg"}
+{"time":"2025-04-06T18:08:14.515961267-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"rxw9r7jg"}
+{"time":"2025-04-06T18:08:14.516141957-04:00","level":"INFO","msg":"handler: started","stream_id":"rxw9r7jg"}
+{"time":"2025-04-06T18:08:14.516164156-04:00","level":"INFO","msg":"sender: started","stream_id":"rxw9r7jg"}
+{"time":"2025-04-06T18:08:14.670276132-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-06T18:08:26.983152788-04:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-04-06T18:10:15.922509646-04:00","level":"INFO","msg":"stream: closing","id":"rxw9r7jg"}
+{"time":"2025-04-06T18:10:15.922550546-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-06T18:10:15.922578028-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-06T18:10:16.453330272-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-06T18:10:16.800921408-04:00","level":"INFO","msg":"handler: closed","stream_id":"rxw9r7jg"}
+{"time":"2025-04-06T18:10:16.800962303-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rxw9r7jg"}
+{"time":"2025-04-06T18:10:16.801006748-04:00","level":"INFO","msg":"sender: closed","stream_id":"rxw9r7jg"}
+{"time":"2025-04-06T18:10:16.80105434-04:00","level":"INFO","msg":"stream: closed","id":"rxw9r7jg"}

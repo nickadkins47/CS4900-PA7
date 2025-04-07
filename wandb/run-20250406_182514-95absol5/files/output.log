@@ -1,0 +1,13 @@
+Using cpu device
+Traceback (most recent call last):
+  File "/home/nickadkins47/CS4900/CS4900-PA7/src/train.py", line 56, in <module>
+    model = DDPG(policy, env, verbose=1, tensorboard_log=log_dir)
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/ddpg/ddpg.py", line 79, in __init__
+    super().__init__(
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/td3/td3.py", line 106, in __init__
+    super().__init__(
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 110, in __init__
+    super().__init__(
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/base_class.py", line 181, in __init__
+    assert isinstance(self.action_space, supported_action_spaces), (
+AssertionError: The algorithm only supports (<class 'gymnasium.spaces.box.Box'>,) as action spaces but Discrete(4) was provided

@@ -1,0 +1,33 @@
+2025-04-06 18:12:51,714 INFO    MainThread:75514 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-06 18:12:51,714 INFO    MainThread:75514 [wandb_setup.py:_flush():67] Configure stats pid to 75514
+2025-04-06 18:12:51,714 INFO    MainThread:75514 [wandb_setup.py:_flush():67] Loading settings from /home/nickadkins47/.config/wandb/settings
+2025-04-06 18:12:51,714 INFO    MainThread:75514 [wandb_setup.py:_flush():67] Loading settings from /home/nickadkins47/CS4900/CS4900-PA7/wandb/settings
+2025-04-06 18:12:51,714 INFO    MainThread:75514 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-06 18:12:51,714 INFO    MainThread:75514 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250406_181251-rlpawegz/logs/debug.log
+2025-04-06 18:12:51,714 INFO    MainThread:75514 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250406_181251-rlpawegz/logs/debug-internal.log
+2025-04-06 18:12:51,717 INFO    MainThread:75514 [wandb_init.py:init():781] calling init triggers
+2025-04-06 18:12:51,717 INFO    MainThread:75514 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'env_name': 'LunarLander-v3', 'policy_type': 'MlpPolicy', 'total_timesteps': 100000, '_wandb': {}}
+2025-04-06 18:12:51,717 INFO    MainThread:75514 [wandb_init.py:init():809] starting backend
+2025-04-06 18:12:51,717 INFO    MainThread:75514 [wandb_init.py:init():813] sending inform_init request
+2025-04-06 18:12:51,723 INFO    MainThread:75514 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-06 18:12:51,723 INFO    MainThread:75514 [wandb_init.py:init():823] backend started and connected
+2025-04-06 18:12:51,740 INFO    MainThread:75514 [wandb_init.py:init():915] updated telemetry
+2025-04-06 18:12:51,760 INFO    MainThread:75514 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-06 18:12:52,260 INFO    MainThread:75514 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-06 18:12:52,337 INFO    MainThread:75514 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-06 18:12:52,337 INFO    MainThread:75514 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-06 18:12:52,337 INFO    MainThread:75514 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-06 18:12:52,337 INFO    MainThread:75514 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-06 18:12:52,338 INFO    MainThread:75514 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-06 18:12:53,813 INFO    MainThread:75514 [wandb_run.py:_tensorboard_callback():1524] tensorboard callback: models/rlpawegz/log/PPO_1, True
+2025-04-06 18:12:53,815 INFO    MainThread:75514 [wandb_watch.py:_watch():71] Watching
+2025-04-06 18:12:53,816 INFO    MainThread:75514 [wandb_run.py:_config_callback():1327] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cpu', 'verbose': 1, 'policy_kwargs': '{}', 'num_timesteps': 0, '_total_timesteps': 100000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1743977573808755171, 'learning_rate': 0.0003, 'tensorboard_log': 'models/rlpawegz/log', '_last_obs': '[[-0.00231857  1.4180119  -0.23486403  0.31519842  0.00269347  0.05320027\n   0.          0.        ]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.vec_video_recorder.VecVideoRecorder object at 0x7fc6dedbb5e0>', '_vec_normalize_env': 'None', 'observation_space': 'Box([ -2.5        -2.5       -10.        -10.         -6.2831855 -10.\n  -0.         -0.       ], [ 2.5        2.5       10.        10.         6.2831855 10.\n  1.         1.       ], (8,), float32)', 'action_space': 'Discrete(4)', 'n_envs': 1, 'n_steps': 2048, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'rollout_buffer_class': "<class 'stable_baselines3.common.buffers.RolloutBuffer'>", 'rollout_buffer_kwargs': '{}', 'batch_size': 64, 'n_epochs': 10, 'clip_range': '<function get_schedule_fn.<locals>.<lambda> at 0x7fc69a964940>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function get_schedule_fn.<locals>.<lambda> at 0x7fc6dc1e0b80>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x7fc6dc1e6f50>', 'policy': 'ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (pi_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (vf_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n    (policy_net): Sequential(\n      (0): Linear(in_features=8, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n      (0): Linear(in_features=8, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n  )\n  (action_net): Linear(in_features=64, out_features=4, bias=True)\n  (value_net): Linear(in_features=64, out_features=1, bias=True)\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x7fc69ab20b20>'}
+2025-04-06 18:19:45,099 INFO    MainThread:75514 [sb3.py:save_model():147] [no run ID] Saving model checkpoint to models/rlpawegz/model.zip
+2025-04-06 18:19:45,106 INFO    MainThread:75514 [wandb_run.py:_finish():2189] finishing run nickadkins47/CS4900-PA7/rlpawegz
+2025-04-06 18:19:45,106 INFO    MainThread:75514 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-06 18:19:45,106 INFO    MainThread:75514 [wandb_run.py:_restore():2401] restore
+2025-04-06 18:19:45,106 INFO    MainThread:75514 [wandb_run.py:_restore():2407] restore done
+2025-04-06 18:19:46,831 INFO    MainThread:75514 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-06 18:19:46,833 INFO    MainThread:75514 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-06 18:19:46,833 INFO    MainThread:75514 [wandb_run.py:_footer_sync_info():4025] logging synced files
