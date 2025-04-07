@@ -9,16 +9,12 @@ Makefile Targets:
 
 ### Video Recordings
 
-[PPO](videos/PPO.mp4)
+I couldn't figure out how to embed them into the markdown file, so here they are:
 
-<video src="videos/PPO.mp4", width="320", height="240"></video>
+[PPO](videos/PPO.mp4)
 
 [A2C](videos/A2C.mp4)
 
-<video src="videos/A2C.mp4", width="320", height="240"></video>
-
 [DDPG](videos/DDPG.mp4)
 
-<video src="videos/DDPG.mp4", width="320", height="240"></video>
-
-(Lastly, the SAC videos didnt show up for some inexplicable reason)
+(The SAC videos didnt show up for some reason)
