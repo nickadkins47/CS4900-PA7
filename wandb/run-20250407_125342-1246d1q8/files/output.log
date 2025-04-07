@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/nickadkins47/CS4900/CS4900-PA7/src/train.py", line 58, in <module>
+    model = RecurrentPPO(policy, env, verbose=1, tensorboard_log=log_dir)
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/sb3_contrib/ppo_recurrent/ppo_recurrent.py", line 101, in __init__
+    super().__init__(
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 86, in __init__
+    super().__init__(
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/base_class.py", line 124, in __init__
+    self.policy_class = self._get_policy_from_name(policy)
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/base_class.py", line 339, in _get_policy_from_name
+    raise ValueError(f"Policy {policy_name} unknown")
+ValueError: Policy MlpPolicy unknown

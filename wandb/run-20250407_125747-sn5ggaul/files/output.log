@@ -1,0 +1,33 @@
+Using cpu device
+Logging to models/sn5ggaul/log/TD3_1
+[2KTraceback (most recent call last):━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/src/train.py", line 59, in <module>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    model.learn(total_timesteps=timesteps, progress_bar=True, callback=callback)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/td3/td3.py", line 222, in learn━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return super().learn(
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 347, in learn━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    self.train(batch_size=self.batch_size, gradient_steps=gradient_steps)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/td3/td3.py", line 194, in train━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    actor_loss = -self.critic.q1_forward(replay_data.observations, self.actor(replay_data.observations)).mean()
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return self._call_impl(*args, **kwargs)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return forward_call(*args, **kwargs)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/td3/policies.py", line 78, in forward━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return self.mu(features)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return self._call_impl(*args, **kwargs)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return forward_call(*args, **kwargs)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/modules/container.py", line 250, in forward━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    input = module(input)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return self._call_impl(*args, **kwargs)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return forward_call(*args, **kwargs)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 133, in forward━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    return F.relu(input, inplace=self.inplace)
+[2K  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/torch/nn/functional.py", line 1704, in relu━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+    result = torch.relu(input)
+[2KKeyboardInterrupt;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]
+[2K[35m   0%[0m [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m183/100,000 [0m [ [33m0:00:03[0m < [36m0:31:14[0m , [31m53 it/s[0m ]

@@ -1,0 +1,19 @@
+{"time":"2025-04-07T13:01:16.746263044-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250407_130116-cidsqoji/logs/debug-core.log"}
+{"time":"2025-04-07T13:01:17.034842278-04:00","level":"INFO","msg":"created new stream","id":"cidsqoji"}
+{"time":"2025-04-07T13:01:17.034879549-04:00","level":"INFO","msg":"stream: started","id":"cidsqoji"}
+{"time":"2025-04-07T13:01:17.035016449-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"cidsqoji"}
+{"time":"2025-04-07T13:01:17.035138681-04:00","level":"INFO","msg":"handler: started","stream_id":"cidsqoji"}
+{"time":"2025-04-07T13:01:17.035157409-04:00","level":"INFO","msg":"sender: started","stream_id":"cidsqoji"}
+{"time":"2025-04-07T13:01:17.153897793-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T13:01:28.292096171-04:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-04-07T14:24:47.616018317-04:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/nickadkins47/CS4900-PA7/cidsqoji/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-04-07T15:10:03.029542945-04:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-07T15:13:32.299106784-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T15:13:32.299260904-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-07T15:13:33.301816867-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":0.220043345,"progress":"3.8MB/3.8MB"}],"total_operations":1}}
+{"time":"2025-04-07T15:13:33.525401952-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-07T15:13:33.726183841-04:00","level":"INFO","msg":"stream: closing","id":"cidsqoji"}
+{"time":"2025-04-07T15:13:33.726319492-04:00","level":"INFO","msg":"handler: closed","stream_id":"cidsqoji"}
+{"time":"2025-04-07T15:13:33.726358758-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cidsqoji"}
+{"time":"2025-04-07T15:13:33.726425656-04:00","level":"INFO","msg":"sender: closed","stream_id":"cidsqoji"}
+{"time":"2025-04-07T15:13:33.726434492-04:00","level":"INFO","msg":"stream: closed","id":"cidsqoji"}

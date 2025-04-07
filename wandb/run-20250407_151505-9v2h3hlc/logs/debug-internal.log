@@ -1,0 +1,17 @@
+{"time":"2025-04-07T15:15:05.276380527-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250407_151505-9v2h3hlc/logs/debug-core.log"}
+{"time":"2025-04-07T15:15:05.592293784-04:00","level":"INFO","msg":"created new stream","id":"9v2h3hlc"}
+{"time":"2025-04-07T15:15:05.592364563-04:00","level":"INFO","msg":"stream: started","id":"9v2h3hlc"}
+{"time":"2025-04-07T15:15:05.59247029-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"9v2h3hlc"}
+{"time":"2025-04-07T15:15:05.592528196-04:00","level":"INFO","msg":"handler: started","stream_id":"9v2h3hlc"}
+{"time":"2025-04-07T15:15:05.592545294-04:00","level":"INFO","msg":"sender: started","stream_id":"9v2h3hlc"}
+{"time":"2025-04-07T15:15:05.741999665-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T15:15:17.310360833-04:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-04-07T15:20:12.706998993-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T15:20:12.707060977-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-07T15:20:13.673132503-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-07T15:20:13.709373238-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 601-626, summary, console lines 2282-2329","runtime_seconds":0.034986042}],"total_operations":1}}
+{"time":"2025-04-07T15:20:13.914820683-04:00","level":"INFO","msg":"stream: closing","id":"9v2h3hlc"}
+{"time":"2025-04-07T15:20:13.914837754-04:00","level":"INFO","msg":"handler: closed","stream_id":"9v2h3hlc"}
+{"time":"2025-04-07T15:20:13.914847129-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9v2h3hlc"}
+{"time":"2025-04-07T15:20:13.914944842-04:00","level":"INFO","msg":"sender: closed","stream_id":"9v2h3hlc"}
+{"time":"2025-04-07T15:20:13.914952989-04:00","level":"INFO","msg":"stream: closed","id":"9v2h3hlc"}

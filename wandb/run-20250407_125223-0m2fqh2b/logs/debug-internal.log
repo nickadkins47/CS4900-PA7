@@ -1,0 +1,16 @@
+{"time":"2025-04-07T12:52:23.299763074-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250407_125223-0m2fqh2b/logs/debug-core.log"}
+{"time":"2025-04-07T12:52:23.674409595-04:00","level":"INFO","msg":"created new stream","id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:23.674470333-04:00","level":"INFO","msg":"stream: started","id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:23.674590686-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:23.674728286-04:00","level":"INFO","msg":"sender: started","stream_id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:23.674836929-04:00","level":"INFO","msg":"handler: started","stream_id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:23.81486068-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T12:52:25.15376463-04:00","level":"INFO","msg":"stream: closing","id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:25.153825729-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T12:52:25.153850801-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-07T12:52:34.414618831-04:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-04-07T12:52:34.839708497-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-07T12:52:35.011205841-04:00","level":"INFO","msg":"handler: closed","stream_id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:35.011235722-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:35.011251824-04:00","level":"INFO","msg":"sender: closed","stream_id":"0m2fqh2b"}
+{"time":"2025-04-07T12:52:35.011289505-04:00","level":"INFO","msg":"stream: closed","id":"0m2fqh2b"}

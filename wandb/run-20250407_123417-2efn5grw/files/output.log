@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/nickadkins47/CS4900/CS4900-PA7/src/train.py", line 27, in <module>
+    env = DummyVecEnv([make_env])
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 31, in __init__
+    self.envs = [_patch_env(fn()) for fn in env_fns]
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 31, in <listcomp>
+    self.envs = [_patch_env(fn()) for fn in env_fns]
+  File "/home/nickadkins47/CS4900/CS4900-PA7/src/train.py", line 23, in make_env
+    env = gym.make("GymV21Environment-v0", end_id=config["env_name"], render_mode="rgb_array")
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 742, in make
+    env = env_creator(**env_spec_kwargs)
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/gymnasium/envs/__init__.py", line 452, in _raise_shimmy_error
+    raise ImportError(
+ImportError: To use the gym compatibility environments, run `pip install "shimmy[gym-v21]"` or `pip install "shimmy[gym-v26]"`

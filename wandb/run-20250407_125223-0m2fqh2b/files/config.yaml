@@ -1,0 +1,131 @@
+_current_progress_remaining:
+    value: 1
+_custom_logger:
+    value: "False"
+_episode_num:
+    value: 0
+_last_episode_starts:
+    value: '[ True]'
+_last_obs:
+    value: (array([14]), array([7]), array([0]))
+_last_original_obs:
+    value: None
+_logger:
+    value: <stable_baselines3.common.logger.Logger object at 0x7fc6a9a435e0>
+_n_updates:
+    value: 0
+_num_timesteps_at_start:
+    value: 0
+_stats_window_size:
+    value: 100
+_total_timesteps:
+    value: 100000
+_vec_normalize_env:
+    value: None
+_wandb:
+    value:
+        cli_version: 0.19.9
+        m: []
+        python_version: 3.10.12
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 1
+                - 16
+                - 22
+                - 23
+                - 35
+                - 55
+            "4": 3.10.12
+            "5": 0.19.9
+            "8":
+                - 5
+            "12": 0.19.9
+            "13": linux-x86_64
+action_noise:
+    value: None
+action_space:
+    value: Discrete(2)
+algo:
+    value: ARS
+alive_bonus_offset:
+    value: 0
+delta_std_schedule:
+    value: <function get_schedule_fn.<locals>.<lambda> at 0x7fc6ab095360>
+device:
+    value: cpu
+env:
+    value: <stable_baselines3.common.vec_env.vec_video_recorder.VecVideoRecorder object at 0x7fc6ac672ef0>
+env_name:
+    value: Blackjack-v1
+ep_info_buffer:
+    value: deque([], maxlen=100)
+ep_success_buffer:
+    value: deque([], maxlen=100)
+learning_rate:
+    value: 0.02
+lr_schedule:
+    value: <function get_schedule_fn.<locals>.<lambda> at 0x7fc6a9a54940>
+n_delta:
+    value: 8
+n_envs:
+    value: 1
+n_eval_episodes:
+    value: 1
+n_params:
+    value: 7234
+n_top:
+    value: 8
+num_timesteps:
+    value: 0
+observation_space:
+    value: Tuple(Discrete(32), Discrete(11), Discrete(2))
+old_count:
+    value: 0
+policy:
+    value: |-
+        ARSPolicy(
+          (features_extractor): FlattenExtractor(
+            (flatten): Flatten(start_dim=1, end_dim=-1)
+          )
+          (action_net): Sequential(
+            (0): Linear(in_features=45, out_features=64, bias=True)
+            (1): ReLU()
+            (2): Linear(in_features=64, out_features=64, bias=True)
+            (3): ReLU()
+            (4): Linear(in_features=64, out_features=2, bias=True)
+          )
+        )
+policy_class:
+    value: <class 'sb3_contrib.ars.policies.ARSPolicy'>
+policy_kwargs:
+    value: '{}'
+policy_type:
+    value: MlpPolicy
+pop_size:
+    value: 16
+processes:
+    value: None
+sde_sample_freq:
+    value: -1
+seed:
+    value: None
+start_time:
+    value: 1744044744256307325
+tensorboard_log:
+    value: models/0m2fqh2b/log
+total_timesteps:
+    value: 100000
+use_sde:
+    value: "False"
+verbose:
+    value: 1
+weights:
+    value: tensor([0., 0., 0.,  ..., 0., 0., 0.])
+zero_policy:
+    value: "True"

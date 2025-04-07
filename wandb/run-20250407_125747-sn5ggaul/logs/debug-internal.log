@@ -1,0 +1,10 @@
+{"time":"2025-04-07T12:57:47.110805787-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nickadkins47/CS4900/CS4900-PA7/wandb/run-20250407_125747-sn5ggaul/logs/debug-core.log"}
+{"time":"2025-04-07T12:57:47.395566473-04:00","level":"INFO","msg":"created new stream","id":"sn5ggaul"}
+{"time":"2025-04-07T12:57:47.395605945-04:00","level":"INFO","msg":"stream: started","id":"sn5ggaul"}
+{"time":"2025-04-07T12:57:47.395638558-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"sn5ggaul"}
+{"time":"2025-04-07T12:57:47.395809271-04:00","level":"INFO","msg":"handler: started","stream_id":"sn5ggaul"}
+{"time":"2025-04-07T12:57:47.395830101-04:00","level":"INFO","msg":"sender: started","stream_id":"sn5ggaul"}
+{"time":"2025-04-07T12:57:47.616718887-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T12:57:52.903754533-04:00","level":"INFO","msg":"stream: closing","id":"sn5ggaul"}
+{"time":"2025-04-07T12:57:52.903776853-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T12:57:52.903826012-04:00","level":"INFO","msg":"Stopped system monitor"}

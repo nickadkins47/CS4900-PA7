@@ -1,0 +1,17 @@
+Using cpu device
+Traceback (most recent call last):
+  File "/home/nickadkins47/CS4900/CS4900-PA7/src/train.py", line 58, in <module>
+    model = QRDQN(policy, env, verbose=1, tensorboard_log=log_dir)
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/sb3_contrib/qrdqn/qrdqn.py", line 145, in __init__
+    self._setup_model()
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/sb3_contrib/qrdqn/qrdqn.py", line 148, in _setup_model
+    super()._setup_model()
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 189, in _setup_model
+    self.replay_buffer = self.replay_buffer_class(
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/buffers.py", line 195, in __init__
+    super().__init__(buffer_size, observation_space, action_space, device, n_envs=n_envs)
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/buffers.py", line 54, in __init__
+    self.obs_shape = get_obs_shape(observation_space)  # type: ignore[assignment]
+  File "/home/nickadkins47/CS4900/CS4900-PA7/.venv/lib/python3.10/site-packages/stable_baselines3/common/preprocessing.py", line 167, in get_obs_shape
+    raise NotImplementedError(f"{observation_space} observation space is not supported")
+NotImplementedError: Tuple(Discrete(32), Discrete(11), Discrete(2)) observation space is not supported
